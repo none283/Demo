@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="./public/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="./public/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <link rel="stylesheet" href="./public/css/common/common.3e7331bf95.css">
+    <link rel="stylesheet" href="./public/css/directory/directory.1815138981.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <title>Ву Хоанг Нам Куан - 211-728</title>
+</head>
+
+<style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .mydataitemclass {
+        display: none;
+        top: 10px;
+    }
+
+    .mymenulistitem {
+        width: 100%;
+        border-radius: 20px;
+        padding: 5px 0;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 10px;
+    }
+
+    #mymenudropdownid {
+        max-height: 250px;
+        overflow-y: auto
+    }
+
+    .hero {
+        position: fixed;
+        min-height: 100%;
+        width: 100%;
+        top: 0;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: -100;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    .mydropdownlistmenu {
+        margin-left: 500;
+    }
+
+    .ajax {
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+
+    input[type=text] {
+        padding: 6px;
+        padding-left: 23px;
+        margin-top: 0px;
+        font-size: 17px;
+        border: none;
+    }
+
+    button {
+        float: left;
+        padding: 6px 10px;
+        margin-top: -35.5px;
+        margin-left: 252.3px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-container button:hover {
+        background: #ccc;
+    }
+
+    .findbutton{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+    }
+
+    .findbutton:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+    .findbutton2{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+    }
+
+    .findbutton2:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+    .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+    }
+
+    body {
+        top: 0px !important; 
+    }
+
+
+
+    .language-dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: -26px;
+    }
+
+    /* Dropdown button on hover & focus */
+    .language-dropbtn:hover, .language-dropbtn:focus {
+        background-color: #2980B9;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .language-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .language-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        margin-left: 250px;
+        margin-top: 32px;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .language-dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .language-dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+
+    /*                                         */
+    .dropbtn-account {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+
+    .dropdown-account {
+    position: relative;
+    display: inline-block;
+    }
+
+    .dropdown-content-account {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+    .dropdown-content-account a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content-account a:hover {background-color: #f1f1f1}
+
+    .dropdown-account:hover .dropdown-content-account {
+    display: block;
+    }
+
+    .dropdown-account:hover .dropbtn-account {
+    background-color: #3e8e41;
+    }
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./public/js/jquery-3.3.1.min.js"></script>
+<script src="./public/js/jquery.sticky.js"></script>
+<script src="./public/js/myjs.js"></script>
+
+<body data-new-gr-c-s-check-loaded="14.1062.0" data-gr-ext-installed="">
+    <!-- <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div> -->
+
+    <header class="site-navbar" role="banner">
+        <div class="container" style="margin-left: 550px; margin-top: 3px;">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="has-children mydropdownlistmenu">
+                                <a class="findbutton2"><span id="spanlistofcompany" style="color: black; font-size: 20px;">List of Vietnamese IT company names</span></a>
+                                <ul class="dropdown arrow-top" id="mymenudropdownid">
+                                    <a class="mymenulistitem" id="menudropdown -index -1"
+                                        onclick="myFunction(1, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -2"
+                                        onclick="myFunction(2, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -3"
+                                        onclick="myFunction(3, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -4"
+                                        onclick="myFunction(4, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -5"
+                                        onclick="myFunction(5, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -6"
+                                        onclick="myFunction(6, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -7"
+                                        onclick="myFunction(7, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -8"
+                                        onclick="myFunction(8, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -9"
+                                        onclick="myFunction(9, 10)"></a>
+                                    <a class="mymenulistitem" id="menudropdown -index -10"
+                                        onclick="myFunction(10, 10)"></a>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="hero" style="background-image: url('./public/images/hero_2.png');"></div>
+
+    <header class="site-navbar" role="banner">
+        <div class="container" style="margin-left: -630px;">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <a class="findbutton findbuttonnum1" style="color: black;" id="dropdown1" onclick="FindSelect(1)">Find By Name</a>
+                            <a class="findbutton findbuttonnum2" style="margin-left: 6px; color: black;" id="dropdown2" onclick="FindSelect(2)">Find By Industries</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <div class="search-container" style="margin-top: 2px; margin-left: -262px;">
+        <form class="form ajax" id="formajax">
+            <input style="display: flex;" id="companynameinput" type="text" name="company_name" placeholder="Company Name">
+            <input style="display: none;" id="indusnameinput" type="text" name="industries_name" placeholder="Industries Name">
+            <button id="submitinput" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+
+    <div id="google_translate_element" style="margin-top: 10px; margin-left: 38px;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          includedLanguages: 'en,ru',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        $(document).ready(function(){
+          $('#google_translate_element').bind('DOMNodeInserted', function(event) {
+            $('.goog-te-menu-value span:first').html('Перевести');
+            $('.goog-te-menu-frame.skiptranslate').load(function(){
+              setTimeout(function(){
+                $('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('Перевести');    
+              }, 100);
+            });
+          });
+        });
+    </script>
+
+    <div class="language-dropdown">
+        <button onclick="myFunction2()" class="language-dropbtn">Languages</button>
+        <div id="language-myDropdown" class="language-dropdown-content">
+            <a href="#" onclick="setLanguage('en')">English</a>
+            <a href="#" onclick="setLanguage('ru')">Russian</a>
+        </div>
+    </div>
+    <script>
+        var language;
+        function getLanguage(lan) {
+            $.ajax({
+                url: '/public/language/' + lan + '.json', 
+                dataType: 'json',
+                async: false,
+                success: function (lang) {
+                    language = lang
+                }
+            });
+        }
+
+        function setLanguage(lang) {
+            getLanguage(lang);
+
+            $('.findbuttonnum1').text(language.btn_find_by_name);
+            $('.findbuttonnum2').text(language.btn_find_by_industry);
+            $('#spanlistofcompany').text(language.btn_list_company);
+            $('#companynameinput').attr("placeholder", language.input_company_name);
+            $('.language-dropbtn').text(language.btn_languagues);
+
+            if(lang == "en")
+            {
+                $('.gioithieuclass').text(server_database_data[index_company_now - 1].gioithieu);
+                $('.notable_class').text(server_database_data[index_company_now - 1].notable_project);
+                $('.quotes_class').text(server_database_data[index_company_now - 1].quotes);
+            }
+            else if(lang == "ru")
+            {
+                $('.gioithieuclass').text(server_database_data[index_company_now - 1].rus_gioithieu);
+                $('.notable_class').text(server_database_data[index_company_now - 1].rus_notable);
+                $('.quotes_class').text(server_database_data[index_company_now - 1].rus_quotes);
+            }
+        }
+
+        function myFunction2() {
+            document.getElementById("language-myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.language-dropbtn')) {
+                var dropdowns = document.getElementsByClassName("language-dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+    <div class="dropdown-account" style="margin-left: -210px; margin-top: 30px;">
+        <button id="dropbtn-account-id" class="dropbtn-account"></button>
+        <div class="dropdown-content-account" id="dropdown-content-account-id" style="margin-left: 250px; margin-top: 20px;">
+        </div>
+    </div>
+    <script>
+        var url = 'http://localhost:3000/userdata';
+        var username = "";
+        fetch(url)
+        .then((response) => response.json())
+        .then((user) => {
+            username = user.username;
+            document.getElementById("dropbtn-account-id").innerText = "User: " + user.username;
+
+            companies = user.companies;
+            var coms = companies.split(",");
+
+            for (let index = 0; index < coms.length; index++) {
+                var ele = document.createElement('a');
+                var linkText = document.createTextNode(coms[index]);
+                ele.appendChild(linkText);
+                ele.href = "#";
+                ele.onclick = function (){
+                    var string = 'data-position="' + coms[index] + '"';
+                    index_company_now = coms[index];
+                    for (let i = 1; i <= 10; i++) {
+                        if(i != coms[index])
+                        {
+                            var othervalue = 'data-position="' + i + '"';
+
+                            var element = document.querySelector('[' + othervalue + ']');        
+                            element.style.display = "none";
+                        }
+                        else
+                        {
+                            var element = document.querySelector('[' + string + ']');
+                            element.style.display = "flex";
+                        }
+                    };
+                };
+                document.getElementById("dropdown-content-account-id").appendChild(ele);
+            }
+        });
+
+        function addFavouriteFunc(company_id) {
+            $.ajax({
+            type: "POST",
+            url: '/database-account/',
+            contentType: 'application/x-www-form-urlencoded',
+            //data: `company_id=${company_id}`,
+            data: {company_id: company_id, username: username},
+            success: function (data, textStatus, jQxhr) {
+                console.log(data);
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        });
+        }
+    </script>
+
+    <section id="directory-providers" class="directory-providers">
+        <div class="container directory-providers__wrap">
+            <ul class="directory-providers__list" data-pid="2058029500000">
+
+            </ul>
+        </div>
+    </section>
+</body>
+
+<script src="./public/js/common.js"></script>
+<script src="./public/js/directory.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script src="./public/js/databasehandle.js"></script>
+
+</html>
